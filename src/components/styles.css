@@ -88,13 +88,9 @@
     transition: 0.2s;
 }
 
-.drag {
-    box-shadow: 0 0 1.25rem black;
-}
-
 .todos-single:hover {
     box-shadow: 0 0 0.25rem black;
-    transform: scale(1.03);
+    transform: scale(1.01);
 }
 
 .todos-single-text {
@@ -106,6 +102,10 @@
 
 .todos-single-text:focus {
     outline: none;
+}
+
+.drag {
+    box-shadow: 0 0 1.25rem black;
 }
 
 .icon {
