@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import InputField from './components/InputField';
 import TodoList from './components/TodoList';
-import Todo from './model';
+import { Todo } from './model';
 
 function App() {
 	const [todo, setTodo] = useState<string>('');
